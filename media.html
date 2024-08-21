@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media file</title>
+    
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .media-container {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+        }
+        audio {
+            width: 100%;
+            max-width: 800px;
+        }
+    </style>
+
+    <div class="links">
+        <a style="display:block" href="form.html">form page</a>
+        <a style="display:block" href="about_me.html">about me page</a>
+        <a style="display:block" href="table.html">table page</a>
+        <a style="display:block" href="media.html">media page</a>
+
+
+    </div>
+
+
+<h1>A Journey Through the Seasons</h1>
+
+<div class="media-container">
+    <p>Join us as we explore the beauty of nature through the changing seasons. The image below adapts to your device, showcasing the perfect view whether you're on a mobile phone, tablet, or laptop.</p>
+
+    
+    <picture>
+        <source srcset="images/spring-large.jpg" media="(min-width: 1024px)">
+        <source srcset="images/spring-medium.jpg" media="(min-width: 768px)">
+        <source srcset="images/spring-small.jpg" media="(max-width: 767px)">
+        <img src="images/spring-small.jpg" alt="Beautiful Spring Scenery" style="width:100%;">
+    </picture>
+
+    <p>The above image beautifully represents spring, a season full of life and renewal. Let's continue with an inspiring video about the seasonal changes.</p>
+
+    <
+    <video controls>
+        <source src="videos/seasons.mp4" type="video/mp4">
+        video here
+    </video>
+
+    <p>Enjoy the music while viewing the gallery. Here’s an audio piece that captures the essence of each season.</p>
+
+    
+    <audio controls>
+        <source src="audio/seasons.mp3" type="audio/mpeg">
+        audio here.
+    </audio>
+</div>
+
+</body>
+</html>

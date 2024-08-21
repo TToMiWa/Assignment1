@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ALT School assignment</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <style>
+
+        body {
+            padding: 0%;
+            
+            }
+            .links{
+                text-align: left;
+            }
+            .overall{
+                display: inline-block;
+                text-align: justify;
+                align-items: start;
+                padding: 0%;
+            }
+            .imageandtext{
+                display: inline-block;
+                align-items: center;
+                margin-right: 20px;
+                
+                }
+            .image{
+                background-color: #fffcf8;
+                display: inline-block;
+                padding-top: 0;
+                margin-top: 0;
+                width: 500px;
+               
+            }
+            .img{
+                width: 100%;
+                margin-top: 0;
+            }
+            .form{
+                display: inline-block;
+                align-items: baseline;
+            }
+            .text1{
+                font-size: 3.18rem;
+                font-family: sans-serif;
+                line-height:72px;
+                color: #000812;
+                text-align: center;
+                letter-spacing: -.51px;
+                font-weight: 500;
+                text-align: center;
+                width: 400px;
+            }
+            
+            
+            .signup{
+                font-size: 20.8px;
+                font-family: sans-serif;
+                color: black;
+                margin:0px 0px 10px ;
+            
+            }
+            
+            .littletext{
+                font-family: sans-serif;
+                color: rgb(133, 136, 141);
+                line-height: 20px;
+                margin-bottom: 25px;
+            
+            }
+            .detail{
+                font-family: sans-serif;
+                font-size: 1rem;
+                padding-bottom: 5px;
+            
+            }
+            .inputo{
+                width: 100%;
+                border: 1px solid transparent;
+                box-shadow: none;
+                padding: 16px 24px 16px 10px;
+                outline: none;
+                color: rgb(11, 30, 75);
+                font-family: sans-serif;
+            }
+            
+            
+
+    </style>
+    <div class="links">
+        <a style="display:block" href="form.html">form page</a>
+        <a style="display:block" href="about_me.html">about me page</a>
+        <a style="display:block" href="table.html">table page</a>
+        <a style="display:block" href="media.html">media page</a>
+
+
+    </div>
+
+    <div class="overall">
+
+        <div class="imageandtext">
+            <div class="image"><img class="img" src="ALTSchool_img1.png"/></div>
+            <div class="text1">Learn highly sought after skills without hassle</div>
+        </div>
+        
+        <div class="form">
+            <header>
+            
+                <p>Already an AltSchooler? <a href="signin.html">Sign in!</a></p>
+            </header>
+        
+            <main>
+                <div>
+                    <h1 class="signup">Signup</h1>
+                    <p class="littletext">take the next steps to apply at Alt school Africa</p>
+                    <form action="#" method="post">
+                        <div>
+                            <div class="firstnamediv">
+        
+                                <label for="first-name" class="detail">First Name:</label> <br/>
+                                <input
+                                type="text"
+                                id="first-name"
+                                name="first-name"
+                                placeholder="Enter first name"
+                                class="inputo"
+                                required   
+                                /><br/><br/>
+                            </div>
+                            
+                            <div>
+                                <label for="last-name" class="detail">Last Name</label><br />
+                                <input
+                                type="text"
+                                id="last-name"
+                                name="last-name"
+                                placeholder="Enter last name"
+                                
+                                required        
+                                /> <br/> <br/>
+        
+                            </div>
+                            
+                            <div>
+                                <label for="gender" class="detail">Gender:</label> <br/>
+                                <select id="id" name="gender" required>
+                                <option value="">Select gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                </select>
+                                <br /> <br />
+                            </div>
+                            
+            
+                            
+                            <div>
+        
+                                <label for="dob" class="detail">Date Of Birth:</label> <br/>
+                                <input type="date" id="dob" name="dob" required/><br/><br/>
+                            </div>
+                            
+                            <div>
+        
+                                <label for="email" class="detail">Email Address:</label> <br/>
+                                <input type="email" id="email" name="email"  required /><br/><br/>
+                            </div>
+                            
+            
+                            <div>
+                                <label for="phoneNumber" class="detail">phone Number:</label> <br/>
+                                <input type="phone_number" id="phone_number" name="phone_nuumber" required /><br/><br/>
+                            </div>
+                            
+            
+                            <div>
+                                <label for="country" class="detail" title="Country">Country:</label>
+                                <input type="search" id="country"  autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="country_list" aria-autocomplete="list" required value=""><br>
+                            </div>
+                            
+            
+                            <div class="text_area">
+                                <label for="howDidYouHear" class="detail">How did you hear about us?</label>
+                                <textarea id="howDidYouHear"   name="howDidYouHear" required></textarea><br>
+                            </div>
+                            
+            
+                            <div>
+                                <label for="password" class="detail" title="Password">Password</label>
+                                <input type="password"  placeholder="enter password" class="" required/>
+                            </div>
+                            
+            
+                            <div>
+                                <label for="confirm_password" class="detail" title="Confirm Password" aria-required="true">Confirm Password</label>
+                                <input type="password"  placeholder="enter password again" class=""  aria-required="true"/>
+        
+                            </div>
+                            
+            
+            
+                            <h4 class="small-text"> By clicking continue, i agree to the terms of Use and acknowledge that i have read the privacy policy</h4>
+                            <div class="buttondiv">
+        
+                                <button type="submit" class="button" >submit</button>
+                            </div>
+                            
+            
+        
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+                
+            
+            </main>
+        
+    
+        </div>
+        
+
+    </div>
+    
+    
+
+</body>
+
+
+</html>
+
+
